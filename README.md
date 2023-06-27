@@ -8,6 +8,7 @@ Reimbursement-webapp allows employees to submit their reimburement requests whic
   * Spring Boot
   * Spring Security
   * JWT (JSON Web Token)
+  * JPA
   * MySQL
   * JS, HTML, CSS
   * Jackson API
