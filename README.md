@@ -1,4 +1,4 @@
-# springboot-reimbursement-webapp
+# Springboot-reimbursement-webapp
 
 ### Project Description: 
 Reimbursement-webapp allows employees to submit their reimburement requests which could be reviewed, approved, or denied by the finance manager.
