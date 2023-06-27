@@ -1,0 +1,50 @@
+body{
+    background-color: #0b0f16;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    color: darkgray;
+}
+.form-container{
+    
+    width: 30%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 1%;
+    background-color: #151a22;
+    min-width: 300px;
+    border: 1px solid rgb(38, 40, 48);
+    padding: 1%;
+    color: darkgray;
+}
+/* .form-header{
+    
+} */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input{
+    
+    border: 1px solid rgb(38, 40, 48);
+    background-color: #0b0f16;
+    color: darkgrey;
+}
+.bttn{
+    margin-top: 8%;
+    background-color:  #475818;
+    color: white;
+    width: 100%;
+    font-size: 23px;
+}
+.bttn:hover{
+    outline: 0ch;
+    background-color:#5a6d21;
+     transition: .5s;
+    color: white;
+}
+.nav{
+    background-color: #151a22;
+    
+}

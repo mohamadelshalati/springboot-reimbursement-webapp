@@ -1,0 +1,26 @@
+body{
+    background-color: #0b0f16;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;   
+}
+.list-div{
+    margin: auto;
+    margin-top: 5%;
+    background-color: #0b0f16;
+    width: 70%;
+}
+.mytable{
+    color:darkgray;
+    background-color:#151a22;
+}
+
+.nav{
+    background-color: #151a22;
+}
+.manager-filter{
+    width: 10%;
+    float: right;
+    margin-top: 5%;
+    margin-right: 15%;
+
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/0b87220e5f.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style2.css">
+    
+</head>
+<body>
+  <div class="nav">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a style="color:#aada1c;" class="navbar-brand" href="#">Reimbursement App</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="reimbForm.html">Submit a Reimbursement<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="list.html">My requests</a>
+          </li>
+          </ul>
+      </div>
+      <button style="margin-left: 8px;" id="log-btn" class="btn btn-danger" ><i class="fas fa-sign-out-alt"></i></button>
+    </nav>
+    <h4 style=
+    "position: absolute;
+    margin: .8%;
+    left: 83%;
+    color: white;
+    float: right;"
+    id="username"
+     ></h4>
+  </div>
+
+    <div id="list-id" class="list-div">
+        <table class="table table-dark table-bordered mytable" >
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Ticket ID#</th>
+                <th scope="col">Employee name</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Type</th>
+                <th scope="col">Description</th>
+                <th scope="col">Status</th>
+                <th scope="col">Submitted on</th>
+                <th scope="col">Resolved on</th>
+              </tr>
+            </thead>
+            <tbody id ='list'>
+            </tbody>
+          </table>
+    </div>
+    <script src="./js/list.js"></script>
+</body>
+</html>

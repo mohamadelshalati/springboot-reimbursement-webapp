@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/0b87220e5f.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div style="text-align: center; color: darkgray;">
+        <i class="fab fa-slack" style="text-align: center; font-size: 100px; color: #475818;"></i>
+        <p style="font-size: 30px;">Reimbursement App</p>
+    </div>
+    <div class="formDiv">
+        <!-- <form onsubmit="signup(); return false;"> -->
+        <form onsubmit="signup(); return false">
+            <label>First name</label><br>
+            <input type="text" name="firstname" id="firstname" required><br>
+            <label class="pwLabel">Last name</label><br>
+            <input type="text" name="lastname" id="lastname" required><br>
+            <label>Email</label><br>
+            <input type="email" name="email" id="email" required><br>
+            <label class="pwLabel">Password</label><br>
+            <input type="password" name="password" id="psw" required><br>
+            <label class="pwLabel">Password confirmation</label><br>
+            <input type="password" name="password" id="pswc" required><br>
+            <p>Role:</p>
+            <label for="employee">Employee</label>
+            <input style="width: 10%;" type="radio" id="employeeRole" name="role" value="EMPLOYEE"><br>
+            <label for="manager">Manager</label>
+            <input style="width: 10%;" type="radio" id="managerRole" name="role" value="MANAGER"><br>
+            <span style="font-size: 12px;">Already a User? <a style="font-size: 14px;" href="login.html">Login</a></span>
+            <p  id="wrong" style="color:rgb(187, 52, 52); margin: 4px;"></p>
+            <button style="margin-top: 3%;" id="logn-btn" class="btn" type="submit">Sign up</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="./js/signup.js" charset="utf-8"></script>
+</body>
+
+</html>
