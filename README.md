@@ -1,7 +1,9 @@
 # Springboot-reimbursement-webapp
 
 ### Project Description: 
-Reimbursement-webapp allows employees to submit their reimburement requests which could be reviewed, approved, or denied by the finance manager.
+The Reimbursement Application is a user-friendly web-based platform designed to streamline the process of submitting and
+managing employee reimbursement requests. With this app, employees can easily submit their requests for reimbursement, while
+finance managers can efficiently review, accept, or deny these requests.
 
 ### Technologies used:
   * Java 17
